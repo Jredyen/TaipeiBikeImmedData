@@ -4,10 +4,11 @@
     <meta charset="utf-8" />
     <title>Taipei YouBike2.0 Immed Data</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
 </head>
 <body>
     <table class="table table-dark table-striped">
-        <thead>
+        <thead id="title">
             <tr>
                 <td>sno</td>
                 <td>sna</td>
@@ -29,9 +30,7 @@
                 <td>infoDate</td>
             </tr>
         </thead>
-        <tbody id="datas">
-
-        </tbody>
+        <tbody id="datas"></tbody>
     </table>
     <script src="index.js"></script>
 </body>
